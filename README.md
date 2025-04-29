@@ -1,16 +1,40 @@
-# techware_products
+# Techware Products App
 
-A new Flutter project.
+A simple Flutter app for user authentication, PIN login, and product management using Firebase.
 
-## Getting Started
+## 🔧 Setup Instructions
 
-This project is a starting point for a Flutter application.
+1. **Clone the repository**  
+   `git clone https://github.com/your-repo/techware_products.git`
 
-A few resources to get you started if this is your first Flutter project:
+2. **Install dependencies**  
+   `flutter pub get`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+3. **Set up Firebase**
+   - Add Firebase to your Flutter project (Android/iOS).
+   - Add `google-services.json` to `android/app`.
+   - Enable Email/Password sign-in in Firebase Authentication.
+   - Enable Firestore Database (test mode is fine for development).
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+4. **Run the app**  
+   `flutter run`
+
+## 🧭 Routes
+
+- `/register` – Register a new user
+- `/setup-pin` – Set up a PIN after first login
+- `/pin-login` – Login using PIN
+- `/home` – View product list
+- `/add-product` – Add a new product
+- `/product-detail` – View product details and QR code
+
+## ✅ Features
+
+- Firebase email/password registration
+- Secure PIN setup and login (using Flutter Secure Storage)
+- Product listing from Firestore
+- Add products with name, measurement, and price
+- QR code generation based on product name
+- View product details with QR code
+
+---
