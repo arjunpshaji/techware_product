@@ -46,8 +46,7 @@ class AuthRepositoryImpl implements AuthRepository {
   }
 
   // Logout
-  @override
-  Future<void> logout() async {
+    Future<void> logout() async {
     await _firebaseAuth.signOut();
     SecureStorageService.deletePin();
   }

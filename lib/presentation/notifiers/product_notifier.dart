@@ -13,7 +13,9 @@ class ProductNotifier extends _$ProductNotifier {
     _productRepository = ProductRepository();
     return _productRepository.getProducts();
   }
-
+  /// Adds a new product to Firestore.
+  ///
+  /// Returns a boolean indicating success or failure.
   Future<bool> addProduct(ProductEntity product) async {
     final result = await _productRepository.addProduct(product);
     return result['status'];
