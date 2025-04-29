@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1077301912159",
+    "project_id": "techwareproducts",
+    "storage_bucket": "techwareproducts.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077301912159:android:125f5b521a5d21f60a71ea",
+        "android_client_info": {
+          "package_name": "com.example.techware_products"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPm_L_WJuRQGn11FFWGspNytW8SWDUdvc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
